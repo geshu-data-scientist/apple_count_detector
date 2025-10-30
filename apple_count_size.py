@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 # --- Configuration ---
-MODEL_PATH = "unet_apple_best.keras"
+MODEL_PATH = "https://github.com/geshu-data-scientist/apple_count_detector/releases/download/model_apple/unet_apple_best.keras"
 IMG_HEIGHT = 256
 IMG_WIDTH = 256
 MIN_APPLE_AREA = 50  # Filters out noise
@@ -181,4 +181,5 @@ MEDIUM_AREA_THRESH = {MEDIUM_AREA_THRESH}
 
 else:
     st.info("Please upload an image to begin.")
+
 
